@@ -1,0 +1,32 @@
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;                
+    margin-top: 50px;  
+}
+
+.btn :hover{
+    color: rgb(235, 158, 199);
+}
+
+button{
+    color: rgb(248, 50, 146);
+    border-color: rgb(248, 50, 146);    
+    border-radius: 10px;
+}   
+
+#mostrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px, dashed, rgb(244, 102, 173);
+    margin: 50px 400px;
+    padding: 10px;
+    background-color: rgb(253, 239, 249);
+}
+
+body{
+    background-image: url(https://wallpapers.com/images/hd/pink-grid-xo298hjqbyvkltc2.jpg);
+}
