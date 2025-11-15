@@ -1,6 +1,6 @@
 const api1 = async () => {
     try{
-        const respuesta = await fetch('http://localhost:3000/');
+        const respuesta = await fetch("https://prueba-tienda-back.onrender.com/");
         if(!respuesta.ok) throw new Error('Error en la respuesta');
         const datos = await respuesta.json();
         alert("El servidor ha respondido, revisa la consola");
@@ -14,7 +14,7 @@ const api1 = async () => {
 
 const api2 = async () => {
     try{
-        const respuesta = await fetch("http://localhost:3000/datos");
+        const respuesta = await fetch("https://prueba-tienda-back.onrender.com/datos");
         if(!respuesta.ok) throw new Error('Error en la respuesta');
         const datos = await respuesta.json();
         alert("El servidor ha respondido, revisa la consola");
